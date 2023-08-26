@@ -1,0 +1,18 @@
+.hide{
+    display: none;
+    visibility: hidden;
+}
+
+.dataTables_scroll{position:relative}
+.dataTables_scrollHead{margin-bottom:40px;}
+.dataTables_scrollFoot{position:absolute; top:38px}
+/*#product-data-table td{ text-align: center; }*/
+#product-data-table th{ width:20% !important; }
+
+.dataTable input[type=text]{
+    width: 60% !important;
+    font-size: 12px !important;
+}
+table.dataTable tfoot th, table.dataTable tfoot td{
+    padding: 5px !important;
+}
